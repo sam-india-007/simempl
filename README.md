@@ -3,6 +3,7 @@ Basic CRUD API written in Rust. Uses Postgres and Diesel
 
 To run
 - Clone the repo
+- Delete ````diesel.toml```` and ````migrations```` directory
 - Set the ````.env```` file with
 ````
 RUST_LOG=rest_api=info,actix=info,diesel_migrations=info
